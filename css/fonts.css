@@ -1,47 +1,54 @@
 @font-face {
     font-family: 'Roboto';
-    src: url("../fonts/robot/roboto.black.ttf"); 
+    src: url("../fonts/roboto/roboto.black.ttf"); 
 	font-style: normal;
 	font-weight: 400;
 	
 	
 	@font-face {
     font-family: 'Roboto';
-    src: url("../fonts/robot/roboto.light.ttf"); 
+    src: url("../fonts/roboto/roboto.light.ttf"); 
 	font-style: normal;
 	font-weight: 300;
 	
 	
 	@font-face {
     font-family: 'Roboto';
-    src: url("../fonts/robot/roboto.thin.ttf"); 
+    src: url("../fonts/roboto/roboto.thin.ttf"); 
 	font-style: normal;
 	font-weight: 100;
 	
 	
 	@font-face {
     font-family: 'Playfair Display';
-    src: url("../fonts/robot/PlayfairDisplaySC-Black.ttf"); 
+    src: url("../fonts/plafair-display/PlayfairDisplaySC-Black.ttf"); 
 	font-style: normal;
 	font-weight: 900;
 	
 	@font-face {
     font-family: 'Playfair Display';
-    src: url("../fonts/robot/PlayfairDisplaySC-Bold.ttf"); 
+    src: url("../fonts/plafair-display/PlayfairDisplaySC-Bold.ttf"); 
 	font-style: normal;
 	font-weight: 700;
 	
 	@font-face {
     font-family: 'Playfair Display';
-    src: url("../fonts/robot/PlayfairDisplaySC-Regular.ttf"); 
+    src: url("../fonts/plafair-display/PlayfairDisplaySC-Regular.ttf"); 
 	font-style: normal;
 	font-weight: 400;
 	
 	@font-face {
-    font-family: 'HammersmithOne';
-    src: url("../fonts/robot/HammersmithOne.ttf"); 
+    font-family: 'Hammersmith One';
+    src: url("../fonts/hammersmith-one/HammersmithOne.ttf"); 
 	font-style: normal;
 	font-weight: 100;
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

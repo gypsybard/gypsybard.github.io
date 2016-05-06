@@ -82,7 +82,7 @@ a:hover {color: #00e0d0;}
 
 .btn {
 	font-size: 16px;
-	font-family: 'HammersmithOne', sans-serif;
+	font-family: 'Hammersmith One', sans-serif;
 	color: #00e0d0;
 	text-transform: uppercase;
 	border: 1px solid #00e0d0;
@@ -128,7 +128,7 @@ a:hover {color: #00e0d0;}
 
 .menu li {
 	float: left;
-	font: 16px/1.8em 'HammersmithOne', sans-serif;
+	font: 16px/1.8em 'Hammersmith One', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	margin-left: 25px;
@@ -145,6 +145,8 @@ a:hover {color: #00e0d0;}
 .main {
 	background: url(../img/mainbg.jpg) center no-repeat;
 	height: 670px;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .main-cont {
@@ -248,7 +250,9 @@ a:hover {color: #00e0d0;}
 
 
 
-
+.yas img {
+	border: 1px solid #00e0d0;
+}
 
 
 
