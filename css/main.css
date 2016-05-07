@@ -247,12 +247,62 @@ a:hover {color: #00e0d0;}
 
 
 
+/* video */
 
 
-
-.yas img {
-	border: 1px solid #00e0d0;
+.video {
+	background: url(../img/videobg.jpg) center no-repeat;
+	height: 550px;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
 }
+
+.play {
+	padding-top: 202px;
+	margin: auto;
+	width:100px;
+	height:100px;
+	background: url(../img/play.png) no-repeat; 
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.play:hover {
+	padding-top: 202px;
+	margin: auto;
+	width:100px;
+	height:100px;
+	background: url(../img/act-play.png) no-repeat; 
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.playbtn {
+	display: block;
+	font-size: 16px;
+	font-family: 'Hammersmith One', sans-serif;
+	text-transform: uppercase;	
+	color: #fff;	
+	cursor: pointer;
+}
+
+.playbtn: hover {
+	color: #00e0d0;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
