@@ -71,7 +71,7 @@ a {
 	cursor: pointer;
 }
 
-a:hover {color: #00e0d0;}
+a:hover {color: #00e0d0;} 
 
 
 
@@ -255,58 +255,42 @@ a:hover {color: #00e0d0;}
 	height: 550px;
 	background-size: cover;
 	background-attachment: fixed;
-	text-align: center;
-}
-
-.play {
-	padding-top: 202px;
-	margin: auto;
-	width:100px;
-	height:100px;
-	background: url(../img/play.png) no-repeat; 
-	cursor: pointer;
-	padding-bottom: 20px;
-}
-
-.play:hover {
-	padding-top: 202px;
-	margin: auto;
-	width:100px;
-	height:100px;
-	background: url(../img/act-play.png) no-repeat; 
-	cursor: pointer;
-	padding-bottom: 20px;
 }
 
 .playbtn {
-	display: block;
 	font-size: 16px;
 	font-family: 'Hammersmith One', sans-serif;
 	text-transform: uppercase;	
-	color: #fff;	
-	cursor: pointer;
+	color: #fff;
 }
 
-.playbtn: hover {
+.playbtn:hover {
+	display: block;
 	color: #00e0d0;
-	cursor: pointer;
 }
 
+.play-inner {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+}
 
+.play {
+	position: relative;
+	background: url(../img/play.png) no-repeat;
+	width: 100px;
+	height: 100px;
+}
 
+.play:hover {
+	background: url(../img/act-play.png) no-repeat; 
+	width: 100px;
+	height: 100px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.play-inner:hover .playbtn {
+	color: #00e0d0;
+}
 
 
 
